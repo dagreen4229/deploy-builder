@@ -1,0 +1,21 @@
+{
+  "name": "deploy-builder",
+  "version": "0.0.1",
+  "description": "A custom builder that uses the ng deploy command to deploy my website.",
+  "main": "src/deploy-builder.js",
+  "scripts": {
+    "test": "ng test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dagreen4229/deploy-builder.git"
+  },
+  "author": "Dave Green",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular-devkit/architect": "^0.800.0-beta.10",
+    "@angular-devkit/core": "^8.0.0-beta.10",
+    "@types/node": "^11.15.7"
+  },
+  "builders": "builders.json"
+}

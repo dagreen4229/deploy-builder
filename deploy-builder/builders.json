@@ -1,0 +1,9 @@
+{
+    "builders": {
+      "command": {
+        "implementation": "./src",
+        "schema": "./src/schema.json",
+        "description": "Builds production version of app, and pushes it to github for CI."
+      }
+    }
+  }
