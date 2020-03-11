@@ -7,7 +7,7 @@
       "sourceRoot": "src",
       "architect": {
         "touch": {
-          "builder": "@example/command-runner:command",
+          "builder": "@dagree4229/deploy-builder:command",
           "options": {
             "command": "touch",
             "args": [
